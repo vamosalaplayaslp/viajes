@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <img src="/logo.png" alt="Vercel Logo" width={200} height={200} />
+        <img src="logo.png" alt="Vercel Logo" width={200} height={200} />
       </main>
     </>
   )
