@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
+.buttons button {
+  font-size: 1rem;
+}
 h1 {
   margin-top: 10px;
   margin-bottom: 18px;
@@ -185,6 +188,78 @@ h1 {
   justify-content: center;
 }
 
+@media screen and (max-width: 1330px) {
+  .pre-header {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 1034px) {
+  .pre-header {
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 916px) {
+  .pre-header {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .pre-header {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 732px) {
+  .pre-header {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (max-width: 608px) {
+  .pre-header {
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 452px) {
+  .pre-header {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 395px) {
+  .pre-header {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 335px) {
+  .pre-header {
+    font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+}
 @media screen and (max-width: 900px) {
   .section-header {
     background-image: url('../../public/bg.svg');
@@ -238,9 +313,6 @@ h1 {
     background-size: auto;
     background-repeat: no-repeat;
   }
-  .pre-header {
-    font-size: 1.1rem;
-  }
 }
 @media screen and (max-width: 417px) {
   .section-header {
@@ -248,12 +320,6 @@ h1 {
     background-position: -86px -158px;
     background-size: auto;
     background-repeat: no-repeat;
-  }
-  .pre-header {
-    font-size: 0.81rem;
-  }
-  h1 {
-    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 336px) {
