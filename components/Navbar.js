@@ -6,9 +6,9 @@ const Navbar = () => {
 
   const [activeIdx, setActiveIdx] = useState(-1)
   const MENU_LIST = [
-    { text: 'Inicio', href: `/` },
-    { text: '¿Quiénes somos?', href: `/about` },
-    { text: 'Contacto', href: `/contact` }
+    { text: 'Inicio', href: `` },
+    { text: '¿Quiénes somos?', href: `about` },
+    { text: 'Contacto', href: `contact` }
   ]
 
   return (
