@@ -38,15 +38,25 @@ const Navbar = () => {
                 }}
                 key={menu.text}
               >
-                <button
+                {/* <button
                   className="btn2"
                   onClick={() => {
-                    location.href = `${menu.href}`
+                    location.href = `${window.location.href}/${menu.href}`
                     setNavActiveLink(true)
                   }}
                 >
                   {menu.text}
-                </button>
+                </button> */}
+                <a href={`${menu.href}`}>
+                  <button
+                    className="btn2"
+                    onClick={() => {
+                      setNavActiveLink(true)
+                    }}
+                  >
+                    {menu.text}
+                  </button>
+                </a>
               </div>
             ))}
           </div>
