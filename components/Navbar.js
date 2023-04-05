@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import Hero from './Hero'
-const MENU_LIST = [
-  { text: 'Inicio', href: '/' },
-  { text: '¿Quiénes somos?', href: '/about' },
-  { text: 'Contacto', href: '/contact' }
-]
 const Navbar = () => {
+  const [isProd, setIsProd] = useState(true)
   const [navActive, setNavActive] = useState(null)
   const [navActiveLink, setNavActiveLink] = useState(false)
 
   const [activeIdx, setActiveIdx] = useState(-1)
+  const MENU_LIST = [
+    { text: 'Inicio', href: `${isProd ? 'viajes/' : '/'}` },
+    { text: '¿Quiénes somos?', href: `${isProd ? 'viajes/about' : 'about'}` },
+    { text: 'Contacto', href: `${isProd ? 'viajes/contact' : 'contact'}` }
+  ]
 
   return (
     <>
