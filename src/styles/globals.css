@@ -127,7 +127,8 @@ nav {
 }
 .section-header {
   position: relative;
-  background-image: url('../images/bgcolor.png'), url('../images/bg.svg');
+  background-image: url('https://vamosalaplayaslp.github.io/viajes/bgcolor.png'),
+    url('https://vamosalaplayaslp.github.io/viajes/bg.svg');
   background-position: -22% 35%, 100% 0%;
   background-size: auto, auto;
   background-repeat: no-repeat, no-repeat;
@@ -174,7 +175,8 @@ h1 {
 }
 @media screen and (max-width: 991px) {
   .section-header {
-    background-image: url('../images/bgcolor.png'), url('../images/bg.svg');
+    background-image: url('https://vamosalaplayaslp.github.io/viajes/bgcolor.png'),
+      url('https://vamosalaplayaslp.github.io/viajes/bg.svg');
     background-position: -167% 45%, 100% 159%;
     background-size: auto, auto;
     background-repeat: no-repeat, no-repeat;
@@ -261,7 +263,7 @@ h1 {
 }
 @media screen and (max-width: 900px) {
   .section-header {
-    background-image: url('../images/bg.svg');
+    background-image: url('https://vamosalaplayaslp.github.io/viajes/bg.svg');
     background-position: 233% 38%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -271,7 +273,7 @@ h1 {
 
 @media screen and (max-width: 795px) {
   .section-header {
-    background-image: url('../images/bg.svg');
+    background-image: url('https://vamosalaplayaslp.github.io/viajes/bg.svg');
     background-position: 333% 38%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -280,7 +282,7 @@ h1 {
 }
 @media screen and (max-width: 769px) {
   .section-header {
-    background-image: url('../images/bg.svg');
+    background-image: url('https://vamosalaplayaslp.github.io/viajes/bg.svg');
     background-position: 533% 38%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -289,7 +291,7 @@ h1 {
 }
 @media screen and (max-width: 749px) {
   .section-header {
-    background-image: url('../images/bg.svg');
+    background-image: url('https://vamosalaplayaslp.github.io/viajes/bg.svg');
     background-position: 733% 38%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -298,7 +300,7 @@ h1 {
 }
 @media screen and (max-width: 727px) {
   .section-header {
-    background-image: url('../images/bg.svg');
+    background-image: url('https://vamosalaplayaslp.github.io/viajes/bg.svg');
     background-position: 1233% 38%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -307,7 +309,7 @@ h1 {
 }
 @media screen and (max-width: 707px) {
   .section-header {
-    background-image: url('../images/bg.svg');
+    background-image: url('https://vamosalaplayaslp.github.io/viajes/bg.svg');
     background-position: 118px 38%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -315,7 +317,7 @@ h1 {
 }
 @media screen and (max-width: 417px) {
   .section-header {
-    background-image: url('../images/bg.svg');
+    background-image: url('https://vamosalaplayaslp.github.io/viajes/bg.svg');
     background-position: -86px -158px;
     background-size: auto;
     background-repeat: no-repeat;
@@ -323,7 +325,7 @@ h1 {
 }
 @media screen and (max-width: 336px) {
   .section-header {
-    background-image: url('../images/bg.svg');
+    background-image: url('https://vamosalaplayaslp.github.io/viajes/bg.svg');
     background-position: -86px -158px;
     background-size: auto;
     background-repeat: no-repeat;
