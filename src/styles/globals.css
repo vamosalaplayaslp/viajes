@@ -39,6 +39,7 @@ nav {
   row-gap: 6px;
   cursor: pointer;
   padding-right: 8px;
+  z-index: 30;
 }
 .nav__menu-bar div {
   width: 40px;
@@ -67,6 +68,7 @@ nav {
 .nav__menu-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: fixed;
   top: 80px;
   width: 100%;
@@ -74,12 +76,13 @@ nav {
   right: -100%;
   padding: 24px 16px;
   transition: all 0.2s;
-
+  z-index: 10;
   align-items: center;
 }
 .nav__menu-list.active {
   right: 0;
-
+  height: 100vh;
+  top: 0;
   background-color: #fff1da;
 }
 .nav__link {
@@ -157,6 +160,7 @@ nav {
 
 span {
   color: #df6951;
+  text-decoration: underline;
 }
 button {
   outline: none;
@@ -355,4 +359,7 @@ h1 {
     display: flex;
     justify-content: center;
   }
+}
+header img {
+  padding-top: 9px;
 }
