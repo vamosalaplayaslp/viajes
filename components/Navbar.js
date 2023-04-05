@@ -6,7 +6,7 @@ const Navbar = () => {
 
   const [activeIdx, setActiveIdx] = useState(-1)
   const MENU_LIST = [
-    { text: 'Inicio', href: `` },
+    { text: 'Inicio', href: `https://vamosalaplayaslp.github.io/viajes/` },
     { text: '¿Quiénes somos?', href: `about` },
     { text: 'Contacto', href: `contact` }
   ]
