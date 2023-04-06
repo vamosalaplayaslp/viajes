@@ -1,4 +1,4 @@
-const Navbar = () => {
+const Hero = () => {
   return (
     <>
       <section className="hero">
@@ -26,4 +26,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Hero

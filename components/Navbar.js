@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Hero from './Hero'
+
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null)
   const [navActiveLink, setNavActiveLink] = useState(false)

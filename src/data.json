@@ -1,0 +1,65 @@
+[
+  {
+    "label": "Ixtapa",
+    "hotel": "Las brisas",
+    "fecha_inicio": "2020-03-03",
+    "fecha_final": "2020-03-04",
+    "precio": { "adulto": 3000, "menor": 2500 },
+    "incluye": { "habitacionMar": true, "todoIncluido": true },
+    "estrellas": 5
+  },
+  {
+    "label": "Los cabos",
+    "hotel": "Riu",
+    "fecha_inicio": "2020-03-03",
+    "fecha_final": "2020-03-04",
+    "precio": { "adulto": 3000, "menor": 2500 },
+    "incluye": { "habitacionMar": true, "todoIncluido": true },
+    "estrellas": 3
+  },
+  {
+    "label": "Mazatlan",
+    "hotel": "Riu",
+    "fecha_inicio": "2020-03-03",
+    "fecha_final": "2020-03-04",
+    "precio": { "adulto": 3000, "menor": 2500 },
+    "incluye": { "habitacionMar": true, "todoIncluido": true },
+    "estrellas": 4
+  },
+  {
+    "label": "Guayabitos",
+    "hotel": "Riu",
+    "fecha_inicio": "2020-03-03",
+    "fecha_final": "2020-03-04",
+    "precio": { "adulto": 3000, "menor": 2500 },
+    "incluye": { "habitacionMar": true, "todoIncluido": true },
+    "estrellas": 5
+  },
+  {
+    "label": "Acapulco",
+    "hotel": "Riu",
+    "fecha_inicio": "2020-03-03",
+    "fecha_final": "2020-03-04",
+    "precio": { "adulto": 3000, "menor": 2500 },
+    "incluye": { "habitacionMar": true, "todoIncluido": true },
+    "estrellas": 5
+  },
+  {
+    "label": "Cancun",
+    "hotel": "Riu",
+    "fecha_inicio": "2020-03-03",
+    "fecha_final": "2020-03-04",
+    "precio": { "adulto": 3000, "menor": 2500 },
+    "incluye": { "habitacionMar": true, "todoIncluido": true },
+    "estrellas": 5
+  },
+  {
+    "label": "Guadalajara",
+    "hotel": "Riu",
+    "fecha_inicio": "2020-03-03",
+    "fecha_final": "2020-03-04",
+    "precio": { "adulto": 3000, "menor": 2500 },
+    "incluye": { "habitacionMar": true, "todoIncluido": true },
+    "estrellas": 5
+  }
+]

@@ -21,9 +21,7 @@ a {
   color: inherit;
 }
 header {
-  position: sticky;
   z-index: 30;
-  top: 0;
 }
 nav {
   display: flex;
@@ -158,7 +156,7 @@ nav {
   text-transform: uppercase;
 }
 
-span {
+.title span {
   color: #df6951;
   text-decoration: underline;
 }
@@ -177,6 +175,13 @@ span {
 }
 .pre-header {
   font-size: 2.1rem;
+}
+.search h2 {
+  font-size: 2.1rem;
+  color: #ffffff;
+}
+.search {
+  text-align: center;
 }
 h1 {
   font-size: 3rem;
@@ -211,6 +216,16 @@ h1 {
   }
   h1 {
     font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 481px) {
+  .search h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 372px) {
+  .search h2 {
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 916px) {
@@ -369,4 +384,105 @@ header img {
 }
 .hidden {
   display: none;
+}
+
+.search {
+  display: flex;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #f1a501;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+.cards {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.7rem;
+  justify-items: center;
+}
+.card {
+  width: 100%;
+}
+.card img {
+  border-radius: 10px;
+}
+.css-tr4s17-option {
+  background-color: transparent !important;
+  color: black !important;
+  box-sizing: border-box !important;
+  border: 1px solid rgb(214, 213, 213);
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-header-star {
+  display: flex;
+  align-items: center;
+}
+.card-image {
+  position: relative;
+}
+.card-buttons {
+  position: absolute;
+  top: 83%;
+  right: 5px;
+}
+.whatsapp {
+  width: 40px;
+  height: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  border: 2px solid white;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 7px;
+}
+.adult {
+  display: flex;
+  gap: 1rem;
+}
+.kid {
+  display: flex;
+  gap: 1rem;
+}
+.fecha {
+  border-bottom: 2px solid #f1a501;
+}
+.card {
+  border-radius: 10px;
+  position: relative;
+}
+* {
+  box-sizing: border-box;
+}
+.card:before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 30%;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+  will-change: opacity;
+}
+.card:before {
+  box-shadow: 0 35px 50px -30px rgba(0, 0, 0, 0.2);
 }
